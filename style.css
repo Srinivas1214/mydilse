@@ -1,0 +1,389 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+.container{
+	width: 100%;
+	height: 10%;
+	background: #42455a;
+}
+.menu ul{
+	display: inline-flex;
+	margin: 20px;
+}
+.menu ul li{
+	list-style: none;
+	margin: 0 20px;
+	color: white;
+	cursor: pointer;
+}
+.logo img{
+	width: 100px;
+	margin-top: -7px;
+	margin-right: 30px;
+}
+.active {
+	color: #19dafa !important;
+}
+
+.signup-btn span{
+	display: block;
+	padding: 8px 22px;
+}
+.banner {
+	width: 100%;
+	height: 80%;
+	background-image: url("head-back.jpg");
+	background-size: cover;
+}
+.app-text h1{
+	padding-top: 100px;
+	font-size: 60px;
+	width: 640px;
+	margin-left: auto;
+	text-align: center;
+	margin-right: auto;
+	color: white;
+}
+.app-text p{
+	font-size: 30px;
+	margin: 30px 0 70px 40px;
+	line-height: 25px;
+	color: white;
+	margin-left: auto;
+	text-align: center;
+	margin-right: auto;
+}
+.button {
+  padding: 10px 40px;
+  display: inline-block;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  border: 2px solid #e7e7e7;
+  margin-left: 43%;
+}
+.button4:hover {
+  background-color: #e7e7e7;
+}
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+
+
+
+
+.tab {
+  overflow: hidden;
+  margin-left: 38%;
+}
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+.tab button:hover {
+  background-color: #ddd;
+}
+
+.tab button.active {
+  background-color: #ccc;
+}
+
+.tabcontent {
+	width: 100%;
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+}
+
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 30%;
+  height: 65%;
+  align-content: center;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {
+	margin: auto;
+  width: 100%;
+  padding: 10px;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+
+
+
+
+
+
+
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #222;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+p {
+  font-size: 13px;
+}
+
+a:hover .card-outmore {
+  background: #2C3E50;
+  color: #fff;
+}
+
+a:hover .thecard {
+  box-shadow: 0 10px 50px rgba(0,0,0,.6);
+}
+
+.thecard {
+  width: 300px;
+  margin: 5% auto;
+  box-shadow: 0 1px 30px rgba(0,0,0,.4);
+  display: block;
+  background-color: #fff;
+  border-radius: 4px;
+  transition: 400ms ease;
+}
+
+.card-img {
+  height: 225px;
+}
+
+.card-img img {
+  width:100%;
+  border-radius: 4px 4px 0px 0px;
+}
+
+.card-caption {
+  position: relative;
+  background-color: white;
+  padding: 15px 25px 5px 25px;
+  border-radius: 0px 0px 4px 4px;
+}
+
+.card-outmore {
+  padding: 10px 25px 10px 25px;
+  border-radius: 0px 0px 4px 4px;
+  border-top: 1px solid #e0e0e0;
+  background: #efefef;
+  color: #222;
+  display: inline-table;
+  width: 100%;
+  box-sizing: border-box;
+  transition: 400ms ease;
+}
+.card-outmore h5 {
+  float: left;
+}
+.card-outmore i {
+  float: right;
+}
+
+span.date {
+  font-size: 10px;
+}
+
+h1 {
+  font-size: 22px;
+}
+
+h5 {
+  margin:0;
+}
+
+
+
+#outmore-icon {
+  border:1px solid ;
+  padding: 1px 6px;
+  border-radius: 50em;
+}
+
+
+
+ .All-Projects {
+            text-align: center;
+            height: 20%;
+            width: 100%;
+            padding-top: 2%;
+        }
+  .All-Projects button{
+  	 background-color: #f44336;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  }
+
+
+
+
+  .AboutUs {
+
+  	padding-top: 3%;
+  	text-align: center;
+  	width: 100%;
+  	height: 65%;
+  }
+  .Aboutcard{
+  	display:inline-flex;
+  	width: 80%;
+  	height:85%;
+  	background-color: white;
+  }
+  .Aboutcard img{
+  	width: 40%;
+  	height: 100%;
+  }
+  .Aboutcard div{
+  	padding-top: 6%
+  }
+  .Aboutcard p{
+  	font-size: 15px;
+  	padding-top: 6%;
+  	margin-left: 10%;
+  	margin-right:10%;
+  	text-align: left;
+  }
+  .Aboutcard button{
+  background-color: #f44336;
+  border: none;
+  color: white;
+  padding-top: 7%;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  }
+
+
+
+
+  .trans-eff {
+  	text-align: center;
+  	width: 100%;
+  	height: 50%;
+  	background-image: url("transback.jpg");
+  }
+  .trans-eff h1{
+  	padding-top: 7%;
+  	color: white;
+  	font-size: 30px;
+  }
+  .trans-eff p{
+  	padding-top: 7%;
+  	color: white;
+  	margin-left: 5%;
+  	margin-right: 5%;
+  }
+
+
+  .howitworks {
+  	width: 100%;
+  	height: 115%;
+  	background-color: white;
+  	display: inline-block;
+  }
+  .howitworks h1{
+  	text-align: center;
+  	padding-top: 5%;
+  }
+  .howitworks p{
+  	text-align: center;
+  	padding-top: 2%;
+  	margin-right: 5%;
+  	margin-left: 5%;
+  }
+  .howitworks div{
+  	width: 100%;
+  	padding-top: 2%;
+  	display:inline-flex;
+  }
+  .process{
+  	width: 100%;
+  }
+  .process div{
+  	text-align: center;
+  	display: inline-block;
+  }
+
+
+  .supporters{
+  	width: 100%;
+  	height: 25%;
+  	text-align: center;
+  	padding-top: 2%;
+  	background-color: white;
+  }
+  .supporters img{
+  	width: 183px;
+  	height: 80px;
+  	transition: transform .2s;
+  	margin: 0 auto;
+  }
+  .supporters img:hover {
+  transform: scale(1.2); 
+}
